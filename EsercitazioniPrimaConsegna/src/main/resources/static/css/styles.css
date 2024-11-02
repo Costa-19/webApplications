@@ -1,0 +1,22 @@
+/* Modifica il colore e lo stile dei titoli */
+h2, h3 {
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Ombra leggera */
+}
+
+/* Cambia lo stile della navbar */
+.nav-link {
+    color: #ffff ; /* Cambia il colore dei link della navbar */
+    font-weight: bold; /* Rende il testo in grassetto */
+}
+
+.nav-link:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
+
+/* Personalizza la tabella */
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    border-color: black !important;
+}
